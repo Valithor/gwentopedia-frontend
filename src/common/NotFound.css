@@ -1,0 +1,23 @@
+.page-not-found {
+    max-width: 26.069vw;
+    margin: 0 auto;
+    margin-top: 2.6069vw;
+    padding: 2.086vw;
+    border: 0.052vw solid #c8c8c8; 
+    text-align: center;   
+}
+
+.page-not-found .title {
+    font-size: 2.6069vw;
+    letter-spacing: 0.521vw;
+    margin-bottom: 0.521vw;
+}
+
+.page-not-found .desc {
+    font-size: 1.043vw;
+    margin-bottom: 1.043vw;
+}
+
+.go-back-btn {
+    min-width: 8.342vw;
+}

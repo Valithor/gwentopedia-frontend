@@ -1,0 +1,29 @@
+.filters-wrap{
+    color: #fff;
+    cursor: pointer; 
+    top:5%;   
+}
+.filters-wrap:hover{
+    color: gold;
+}
+
+.filters-img{
+    right: 0px;
+    position: fixed;
+    width: 10.428vw;
+    height: 5.214vw;
+}
+.filters-text{
+    padding-top: 1.3vw;
+    right: 1vw;
+    position: fixed;
+    font-size: 2vw;
+}
+
+
+.filter-button {
+    width: 50%;
+}
+.filter-form-row {
+    margin-bottom: 1.043vw;
+}

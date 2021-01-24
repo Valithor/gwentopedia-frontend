@@ -1,0 +1,39 @@
+.tasks-container{
+    max-width: auto;
+    margin: 0 auto;
+    margin-top: 5.214vw;
+    padding-bottom: 5.214vw;    
+}
+.task-data{
+    float:left;
+}
+
+.no-tasks-found {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;    
+}
+
+.divTable{
+    border: 1px solid black;
+	display: table;
+	width: 100%;
+}
+.divTableRow-green {
+    border: 1px solid black;
+    display: table-row;
+    background: rgba(0, 255, 0, .3);
+}
+.divTableRow-red {
+    border: 1px solid black;
+    display: table-row;
+    background: rgba(255, 0, 0, .3);
+}
+.divTableCell {
+    border: 1px solid black;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableBody {
+	display: table-row-group;
+}

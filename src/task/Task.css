@@ -1,0 +1,19 @@
+
+
+
+ .vs {
+    background-image: url("/leaders/vs.jpg");   
+    width: auto;
+    height: auto; 
+ }
+ .leaders  {
+    height: 90px;
+    width: 'auto';
+  }
+
+
+.stars{
+    justify-content: center;
+    text-align: center;
+
+}

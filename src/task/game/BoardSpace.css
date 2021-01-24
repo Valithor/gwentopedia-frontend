@@ -1,0 +1,18 @@
+.popover  {
+    background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  width: 7.769vw;
+}
+.rTableRow { 
+    background: rgba(255, 0, 0, 0.2);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.small-card{
+    transform: scale(0.6);
+    height: 0px;
+    width: 3.650vw;
+}

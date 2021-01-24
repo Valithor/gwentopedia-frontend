@@ -1,0 +1,49 @@
+{
+  "name": "gwentopedia-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/dark-theme": "^2.0.2",
+    "@ant-design/icons": "^4.3.0",
+    "antd": "^4.10.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.0",
+    "lazyload": "^2.0.0-rc.2",
+    "less": "^3.12.2",
+    "less-loader": "5.0.0",
+    "moment": "^2.29.0",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.13.1",
+    "react-draggable": "^4.4.3",
+    "react-hook-form": "^6.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "babel-plugin-import": "^1.6.5",
+    "customize-cra": "^1.0.0",
+    "react-app-rewire-less": "^2.1.0",
+    "react-app-rewired": "^2.1.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

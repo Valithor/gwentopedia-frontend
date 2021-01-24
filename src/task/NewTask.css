@@ -1,0 +1,77 @@
+.create-task-form-button {
+    width: 50%;
+}
+
+.new-task-container {
+    max-width: auto;
+    margin: 0 auto;
+    margin-top: 2.086vw;
+    padding-bottom: 5.214vw;
+}
+
+.create-task-form-button[disabled], .create-task-form-button[disabled]:hover, .create-task-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.rtableRow-create {
+    overflow: auto;
+    height: 6.778vw;
+    width: 100%;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 0, 0, 0.2);
+    border: 0.052vw solid black;
+}
+.select-leader{
+    height: 0.782vw;
+    width: auto;
+}
+
+.task-form-row {
+    margin-bottom: 1.043vw;
+    color: black;
+}
+.task-form-row-white {
+    margin-bottom: 1.043vw;
+}
+
+.task-form-row input, .task-form-row textarea {
+    margin-bottom: 0.209vw;
+}
+.card-lib{
+    margin: 0 auto;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: left; 
+    display:block;
+
+}
+.big-card{
+    text-align: left; 
+    float:left;
+    transform: scale(0.7);
+    height: 160px;
+    width: 110px;
+}
+
+
+.small-card-create{
+    transform: scale(0.6);
+    float: left;
+
+    height: 130px;
+    width: 95px;
+}
+.factions{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+.factions>img{
+    height: 50px;
+    width: 50px;
+}
