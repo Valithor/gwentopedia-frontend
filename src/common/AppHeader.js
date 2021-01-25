@@ -96,7 +96,7 @@ function AppHeader (props) {
 						<span className="barsBtn"></span>
 					</Button>
 					<Drawer
-						title="Basic Drawer"
+						title="Menu"
 						placement="right"
 						closable={false}
 						onClose={()=>setIsVisible(!isVisible)}
