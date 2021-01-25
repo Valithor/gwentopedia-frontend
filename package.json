@@ -6,7 +6,7 @@
     "@ant-design/dark-theme": "^2.0.2",
     "@ant-design/icons": "^4.3.0",
     "antd": "^4.10.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.12.2",
     "bootstrap": "^4.5.0",
     "customize-cra": "^1.0.0",
