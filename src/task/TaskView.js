@@ -84,7 +84,8 @@ const move = (source, destination, droppableSource, droppableDestination) => {
      const chooseCard =(good) => {
        setGood(good);
        const answerData={good: good};
-       if(task.correct==null && task.createdBy.username!=props.currentUser.username && task.taskType.name != 'Tutorial')
+       if(task.correct==null && task.taskType.name != 'Tutorial')
+       if(task.createdBy.username!=props.currentUser.username)
        saveAnswer(props.match.params.id, answerData)
        .then(response => {
         }).catch(error => {

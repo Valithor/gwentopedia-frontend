@@ -31,6 +31,9 @@ function Signup (props) {
      const isFormInvalid =() =>{   
         return errors.gogName||errors.username||errors.email||errors.password;
      }
+     if(props.currentUser)
+     props.history.push('/');
+ 
   
         return (
             <div className="signup-container">

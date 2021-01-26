@@ -11,12 +11,19 @@
 }
 
 .app-content {
-  margin-top: 64px;   
+  margin-top: 64px; 
+  height: 100%;  
+  position: fixed; 
+  width: 100%; 
   background-color: black;
+  overflow-y:scroll;
+  overflow-x:hidden;
 }
+
 .bg{
   background-image: url("/gallery/hiclipart.com.png");  
   background-size: 100% 100%;
+  min-height: 100%;
   justify-self: center;
   max-width: 1200px;
   max-height: auto;

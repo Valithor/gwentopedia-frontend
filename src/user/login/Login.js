@@ -3,6 +3,9 @@ import './Login.css';
 import LoginForm from './LoginForm';
 
 function Login (props) {
+    if(props.currentUser)
+    props.history.push('/');
+    
         return (
             <div className="login-container">
                 <h1 className="page-title" style={{color: "black"}}>Login</h1>

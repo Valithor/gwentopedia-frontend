@@ -95,8 +95,8 @@ function App (props) {
                       currentUser={currentUser} handleLogout={handleLogout} {...props} />}>
                 </Route>
                 <Route path="/login" 
-                  render={(props) => <Login onLogin={handleLogin} {...props} />}></Route>
-                <Route path="/signup" component={Signup}></Route>
+                  render={(props) => <Login onLogin={handleLogin} {...props} currentUser={currentUser} />}></Route>
+                <Route path="/signup" render={(props)=><Signup currentUser={currentUser} {...props}/>}></Route>
                 <Route path="/users/:username" 
                   render={(props) => <Profile isAuthenticated={isAuthenticated} currentUser={currentUser} {...props}  />}>
                 </Route>

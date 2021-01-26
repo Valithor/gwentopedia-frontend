@@ -11,6 +11,10 @@ export default function useCardSearch(pageNumber, size, type, text = 'all', task
     setElems([])
   }, [text, taskFilters])
 
+  const filterType=(name)=>{
+    setElems(elems.filter(task => task.taskType.name ==name));
+ }
+
   useEffect(() => {
     setLoading(true)
     setError(false)
@@ -39,5 +43,5 @@ export default function useCardSearch(pageNumber, size, type, text = 'all', task
     })     
   }, [ pageNumber])
 
-  return { loading, error, elems, hasMore }
+  return { loading, error, elems, hasMore, filterType }
 }

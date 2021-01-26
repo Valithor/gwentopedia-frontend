@@ -17,7 +17,7 @@ function TaskList (props) {
     const [tasks, setTasks] = useState([]);
     const [searchData, setSearchData] = useState([]);
     const [pageNumber, setPageNumber] = useState(0);
-    const {elems, hasMore, loading} = useCardSearch(pageNumber, 2, props.type, props.username, searchData);
+    const {elems, hasMore, loading, filterType} = useCardSearch(pageNumber, 2, props.type, props.username, searchData);
     const observer = useRef();
     const isMountedRef = useIsMountedRef();
 
@@ -33,9 +33,7 @@ function TaskList (props) {
         if (node) observer.current.observe(node)
       }, [loading, hasMore])
 
-    const filterType=(name)=>{
-        setTasks(tasks.filter(task => task.taskType.name ==name));
-     }
+   
 
     const loadTaskList =(page = 0, size = TASK_LIST_SIZE)=> {
         let promise;
