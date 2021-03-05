@@ -1,3 +1,5 @@
+This app is being hosted on: [https://gwentopedia.herokuapp.com/](https://gwentopedia.herokuapp.com/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
